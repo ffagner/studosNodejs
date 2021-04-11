@@ -1,2 +1,4 @@
-const areaQuadrado = require('./module')
-console.log(areaQuadrado(2))
+const area = require('./module')
+console.log(area.areaQuadrado(2))
+console.log(area.areaRetangulo(2,5))
+console.log(area.areaCirculo(2))
